@@ -23,42 +23,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="swiper-slide-block">
-                                <div class="swiper-slide-block-img" data-swiper-parallax-y="70%">
-                                    <a href="project-page-2.html"><img src="images/slider/1.jpg" alt=""></a>
-                                </div>
-                                <div class="swiper-slide-block-text">
-                                    <h2 data-swiper-parallax-x="-60%" class="next-main-title">Tomas & Isabel</h2>
-                                    <h3 data-swiper-parallax-x="-50%" class="next-main-subtitle">Wedding, Norwalk
-                                    </h3>
-                                    <p data-swiper-parallax-x="-40%" class="next-paragraph">Quisque pellentesque
-                                        odio ut libero iaculis, nec fringilla sapien tincidunt. Sed laoreet pulvinar
-                                        ex sed egestas. Vestibulum pharetra enim the dui tempus in blandit nulla
-                                        egestas.</p> <a data-swiper-parallax-x="-30%" class="next-link"
-                                        href="project-page-2.html">Discover</a> <span data-swiper-parallax-y="60%"
-                                        class="next-number animate-box" data-animate-effect="fadeInUp">2</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="swiper-slide-block">
-                                <div class="swiper-slide-block-img" data-swiper-parallax-y="70%">
-                                    <a href="project-page-2.html"> <img src="images/gallery/21.jpg" alt=""> </a>
-                                </div>
-                                <div class="swiper-slide-block-text">
-                                    <h2 data-swiper-parallax-x="-60%" class="next-main-title">Jenna & James</h2>
-                                    <h3 data-swiper-parallax-x="-50%" class="next-main-subtitle">Wedding, London
-                                    </h3>
-                                    <p data-swiper-parallax-x="-40%" class="next-paragraph">Quisque pellentesque
-                                        odio ut libero iaculis, nec fringilla sapien tincidunt. Sed laoreet pulvinar
-                                        ex sed egestas. Vestibulum pharetra enim the dui tempus in blandit nulla
-                                        egestas.</p> <a data-swiper-parallax-x="-30%" class="next-link"
-                                        href="project-page-2.html">Discover</a> <span data-swiper-parallax-y="60%"
-                                        class="next-number">3</span>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                     <div class="swiper-button-next animate-box" data-animate-effect="fadeInRight"> <i
                             class="fa fa-long-arrow-right" aria-hidden="true"></i> </div>
