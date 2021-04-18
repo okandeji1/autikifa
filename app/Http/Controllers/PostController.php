@@ -25,7 +25,7 @@ class PostController extends Controller
             $posts = Post::orderBy('created_at', 'desc')->paginate(20);
             return view('pages.post.manage_post')->with('posts', $posts);
         } catch (\Throwable $th) {
-            //throw $th;
+            // throw $th;
             return redirect()->back()->with(['error' => 'Internal server error']);
         }
     }
@@ -49,27 +49,18 @@ class PostController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [
-            'title' => 'required',
-            'description' => 'required',
             'image' => 'required|file|mimes:jpg,png,peg,svg,gif,jpeg|max:1028',
         ]);
-
-        $title = $request->title;
-        $description = $request->description;
         try {
-            if(Post::where('title', $title)->exists()){
-                return back()->with(['error' =>' This post already exist!']);
-            }
             $newPost = new Post();
             if($request->hasFile('image')){
                 $image = request()->file('image')->store('uploads', 'public');
                 $newPost->image = $image; 
+                $newPost->uuid = Uuid::uuid4();
+                $newPost->save();
+                return redirect('/admin/user-posts')->with('success', ' Image upload successfully');
             }
-            $newPost->uuid = Uuid::uuid4();
-            $newPost->title = $title;
-            $newPost->description = $description;
-            $newPost->save();
-            return redirect('/manage-posts')->with('success', 'Post created successfully');
+            
         } catch (\Throwable $th) {
             back()->with(['error' =>' Internal server error!']);
         }

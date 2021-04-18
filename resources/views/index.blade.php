@@ -1,4 +1,10 @@
 @extends('layouts.site')
+<style>
+    .stage-name {
+        font-size: 1rem;
+    }
+
+</style>
 @section('content')
     <div class="container">
         <section class="pozo-section-slider pt-130">
@@ -9,14 +15,20 @@
                             <div class="swiper-slide-block">
                                 <div class="swiper-slide-block-img animate-box" data-animate-effect="fadeInLeft"
                                     data-swiper-parallax-y="70%">
-                                    <a href="project-page.html"> <img src="images/slider/2.jpg" alt=""> </a>
+                                    <a href="#"> <img src="images/slider/2.jpg" alt=""> </a>
                                 </div>
                                 <div class="swiper-slide-block-text animate-box" data-animate-effect="fadeInRight">
-                                    <h2 data-swiper-parallax-x="-60%" class="next-main-title">Augusta Asuquo</h2>
+                                    <h2 data-swiper-parallax-x="-60%" class="next-main-title">Auti Kifa <span
+                                            class="stage-name">(a.k.a Man eater)</span></h2>
                                     <h3 data-swiper-parallax-x="-50%" class="next-main-subtitle">Singer, Song writer</h3>
+                                    <h6 data-swiper-parallax-x="-30%" class="next-paragraph text-white mt">Label: AK records
+                                    </h6>
+                                    <h6 data-swiper-parallax-x="-30%" class="next-paragraph text-white">Genres: Afro
+                                        Beats, Reggeton, and
+                                        Dancehall</h6>
                                     <p data-swiper-parallax-x="-40%" class="next-paragraph">Augusta Asuquo better known as
                                         Auti Kifa was born on 29 August 1994 in Lagos,Nigeria.Born to a Nigerian dad and a
-                                        Kingston Mum" Is a Nigerian singer,Song writer and a record producer.</p> <a
+                                        Kingston Mum" Is a Nigerian singer, Song writer, and a record producer.</p> <a
                                         data-swiper-parallax-x="-30%" style="z-index: 5;" class="next-link"
                                         href="#">Discover</a> <span data-swiper-parallax-y="60%"
                                         class="next-number">1</span>

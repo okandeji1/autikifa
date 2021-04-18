@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\PostController;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,4 +33,5 @@ Route::post('/auth-user-signin', [UserController::class, 'login']);
 Route::post('/auth-user-signup', [UserController::class, 'register']);
 Route::get('/logout', [UserController::class,'logout']);
 Route::get('/admin/user-dashboard', [UserController::class,'dashboard']);
-Route::get('/admin/user-posts', [PostController::class,'post']);
+Route::get('/admin/user-posts', [PostController::class,'index']);
+Route::post('/admin/user-post', [PostController::class,'store']);
