@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Autikifa</title>
     <!-- Favicon -->
-    <link rel="shortcut icon"
-        href="https://iqonic.design/themes/streamitnew/dashboard/html/assets/images/favicon.ico" />
+    {{-- <link rel="shortcut icon"
+        href="https://iqonic.design/themes/streamitnew/dashboard/html/assets/images/favicon.ico" /> --}}
+    <link rel="icon" type="image/png" href="{{ asset('images/favicon.png') }}" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <!--datatable CSS -->

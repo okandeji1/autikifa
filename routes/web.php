@@ -15,10 +15,11 @@ use App\Http\Controllers\PostController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+// Pages
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/contact-us', [PageController::class,'contact']);
 
 Route::get('/auth-login', function () {
     return view('pages.auth.login');

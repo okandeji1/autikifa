@@ -6,8 +6,10 @@
                     <div class="col-md-12 col-sm-12">
                         <nav class="navbar navbar-expand-md navbar-light">
                             <!-- Logo -->
-                            <a class="navbar-brand animate-box" data-animate-effect="fadeInUp" href="index.html"> <img
-                                    src="images/logo.png" class="logo" alt=""> </a>
+                            {{-- <a class="navbar-brand animate-box" data-animate-effect="fadeInUp" href="1"> <img
+                                    src="images/logo.png" class="logo" alt=""> </a> --}}
+                            <a class="navbar-brand animate-box" style="color: #9c5451" data-animate-effect="fadeInUp"
+                                href="/">Autikifa</a>
                             <!-- Menu -->
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -42,7 +44,7 @@
                                     {{-- <li class="nav-item pl-md-0 ml-0 ml-md-4"> <a class="nav-link"
                                             href="blog.html">Blog</a></li> --}}
                                     <li class="nav-item pl-md-0 ml-0 ml-md-4"> <a class="nav-link"
-                                            href="/contact">CONTACT</a> </li>
+                                            href="/contact-us">CONTACT</a> </li>
                                 </ul>
                             </div>
                         </nav>
