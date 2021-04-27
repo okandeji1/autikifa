@@ -18,10 +18,9 @@
 17. Media Query
 ----------------------------- */
 
-
 /* ======= Fonts Settings (Mukta | Playfair Display) ======= */
 
-@import url('https://fonts.googleapis.com/css?family=Mukta:300,400,500,600,700|Playfair+Display:400,500,600,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Mukta:300,400,500,600,700|Playfair+Display:400,500,600,700&display=swap");
 
 /* ======= General Settings ======= */
 
@@ -40,7 +39,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 body {
-    font-family: 'Mukta', sans-serif;
+    font-family: "Mukta", sans-serif;
     font-size: 14px;
     line-height: 1.75em;
     font-weight: 400;
@@ -53,7 +52,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     font-weight: 400;
     line-height: 1.75em;
     color: #9c5451;
@@ -85,7 +84,7 @@ h6 span {
     color: #9c5451;
 }
 p {
-    font-family: 'Mukta', sans-serif;
+    font-family: "Mukta", sans-serif;
     font-size: 14px;
     line-height: 1.75em;
     font-weight: 400;
@@ -156,7 +155,7 @@ input,
 optgroup,
 select,
 textarea {
-    font-family: 'Mukta', sans-serif;
+    font-family: "Mukta", sans-serif;
 }
 input[type="password"]:focus,
 input[type="email"]:focus,
@@ -188,7 +187,7 @@ textarea {
     font-weight: 400;
     color: #999;
     background-image: none;
-    border-color: ease-in-out .15s, box-shadow ease-in-out .15s;
+    border-color: ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
     outline: none;
 }
 input:focus,
@@ -208,8 +207,8 @@ button {
     border-style: solid;
     color: #fff;
     border-width: 0;
-    -webkit-transition: background-color .15s ease-out;
-    transition: background-color .15s ease-out;
+    -webkit-transition: background-color 0.15s ease-out;
+    transition: background-color 0.15s ease-out;
     background-color: #9c5451;
     margin-top: 0px;
     border-radius: 30px;
@@ -240,7 +239,6 @@ input[type="radio"],
 input[type="checkbox"] {
     display: inline;
 }
-
 
 /* ======= Helpfull Classes ======= */
 .o-hidden {
@@ -318,7 +316,7 @@ a {
 /* owl theme */
 .owl-theme .owl-nav.disabled + .owl-dots {
     margin-top: 20px;
-    line-height: .7;
+    line-height: 0.7;
 }
 .owl-theme .owl-dots .owl-dot span {
     width: 8px;
@@ -375,7 +373,6 @@ a {
     text-align: right;
 }
 
-
 /* =======  Preloader Style  ======= */
 .pozo-pageloading {
     color: #9c5451;
@@ -412,7 +409,7 @@ a {
 }
 @-webkit-keyframes preloader-breath-img {
     from {
-        opacity: .2;
+        opacity: 0.2;
     }
     to {
         opacity: 1;
@@ -420,7 +417,7 @@ a {
 }
 @keyframes preloader-breath-img {
     from {
-        opacity: .2;
+        opacity: 0.2;
     }
     to {
         opacity: 1;
@@ -491,7 +488,6 @@ a {
     opacity: 0;
 }
 
-
 /* =======  Navigation Style  ======= */
 .pozo-start-header {
     opacity: 1;
@@ -500,8 +496,8 @@ a {
 }
 .pozo-start-header.scroll-on {
     padding: 5px 15px;
-    -webkit-transition: height .2s ease-out;
-    transition: height .2s ease-out;
+    -webkit-transition: height 0.2s ease-out;
+    transition: height 0.2s ease-out;
     box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.4);
     background: #191919;
 }
@@ -557,7 +553,7 @@ a {
     background-color: #9c5451;
     top: 0;
     left: 0;
-    content: '';
+    content: "";
     z-index: 2;
     transition: all 300ms linear;
 }
@@ -587,7 +583,7 @@ a {
 }
 .navbar-light .navbar-nav .nav-link {
     font-size: 15px;
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
 }
 .nav-link {
     position: relative;
@@ -600,7 +596,7 @@ a {
     left: 0;
     width: 100%;
     height: 2px;
-    content: '';
+    content: "";
     background-color: #9c5451;
     opacity: 0;
     transition: all 200ms linear;
@@ -653,7 +649,7 @@ a {
 .dropdown-item {
     padding: 10px 15px;
     color: #999;
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     font-weight: 400;
     transition: all 200ms linear;
 }
@@ -679,7 +675,6 @@ a {
         background: #191919;
     }
 }
-
 
 /* ======= Slider ======= */
 .swiper-container {
@@ -709,26 +704,26 @@ a {
     color: #9c5451;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .next-link {
     display: inline-block;
     width: auto;
     position: relative;
     text-decoration: none;
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     font-size: 20px;
     font-weight: 300;
     line-height: 1.75em;
     color: #9c5451 !important;
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     padding-left: 100px;
 }
 .next-link a:hover {
     color: #9c5451;
 }
 .next-link:before {
-    content: '';
+    content: "";
     display: inline-block;
     width: 90px;
     height: 1px;
@@ -807,7 +802,7 @@ a {
 .swiper-slide-block .swiper-slide-block-img img {
     width: 100%;
     height: auto;
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .swiper-slide-block .swiper-slide-block-img:hover img {
     -webkit-transform: scale(1.1);
@@ -817,12 +812,12 @@ a {
     width: 100%;
     height: auto;
     margin: 0 auto;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     position: relative;
 }
 .swiper-slide-block .next-main-title {
     color: #9c5451;
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     font-weight: 400;
     font-size: 35px;
     line-height: 1.5em;
@@ -834,7 +829,7 @@ a {
     font-size: 12px;
     text-transform: uppercase;
     font-weight: 300;
-    font-family: 'Mukta', sans-serif;
+    font-family: "Mukta", sans-serif;
     color: #fff;
     letter-spacing: 4px;
 }
@@ -860,7 +855,7 @@ a {
     line-height: 1.75em;
 }
 .swiper-slide-block .next-number {
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     font-size: 300px;
     font-weight: 400;
     width: 100%;
@@ -885,7 +880,6 @@ a {
     margin-right: auto;
 }
 
-
 /* =======  About  ======== */
 .about {
     margin-bottom: 30px;
@@ -895,7 +889,7 @@ a {
     font-size: 200px;
     line-height: 150px;
     font-weight: 400;
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     color: #9c5451;
     margin-bottom: 0;
 }
@@ -906,8 +900,8 @@ a {
     position: relative;
     margin-bottom: 20px;
 }
-.about .image .img img {}
-
+.about .image .img img {
+}
 
 /* =======  Team  ======== */
 .team-holder {
@@ -942,7 +936,7 @@ a {
     margin: 0;
 }
 .team-holder .team-position {
-    font-family: 'Mukta', sans-serif;
+    font-family: "Mukta", sans-serif;
     color: #999;
     margin: 0;
     padding-left: 20px;
@@ -959,7 +953,6 @@ ul.team-info-social li {
     margin: 15px 0;
     padding: 5px;
 }
-
 
 /* =======  Services  ======== */
 .services .item {
@@ -986,7 +979,7 @@ ul.team-info-social li {
     color: #fff;
 }
 .services .item:hover .numb {
-    -webkit-text-stroke: 1px #fff
+    -webkit-text-stroke: 1px #fff;
 }
 .services .item:after {
     content: "";
@@ -997,8 +990,8 @@ ul.team-info-social li {
     bottom: 0;
     background: #191919;
     z-index: 1;
-    -webkit-transition: all .4s;
-    transition: all .4s;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
 }
 .services .item .con {
     position: relative;
@@ -1013,10 +1006,10 @@ ul.team-info-social li {
     font-size: 75px;
     line-height: 75px;
     font-weight: 400;
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     color: transparent;
     -webkit-text-stroke: 1px #9c5451;
-    opacity: .9;
+    opacity: 0.9;
     margin-bottom: 20px;
 }
 .services .item p {
@@ -1040,7 +1033,6 @@ ul.team-info-social li {
 .services .bg-6 {
     background-image: url(../images/services/06.jpg);
 }
-
 
 /* ======= Gallery Style  ======= */
 .pozo-gallery p {
@@ -1088,9 +1080,9 @@ ul.team-info-social li {
     top: 0;
     background: rgba(0, 0, 0, 0.6);
     z-index: 1;
-    -webkit-transition: .3s all ease;
-    -o-transition: .3s all ease;
-    transition: .3s all ease;
+    -webkit-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
     opacity: 0;
     visibility: hidden;
 }
@@ -1104,9 +1096,9 @@ ul.team-info-social li {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     margin-top: 30px;
-    -webkit-transition: .3s all ease;
-    -o-transition: .3s all ease;
-    transition: .3s all ease;
+    -webkit-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
     opacity: 0;
     visibility: hidden;
     text-align: center;
@@ -1133,7 +1125,8 @@ ul.team-info-social li {
     object-fit: cover;
 }
 @media (max-width: 575.98px) {
-    .pozo-photos .pozo-photo-item img {}
+    .pozo-photos .pozo-photo-item img {
+    }
 }
 .pozo-photos .pozo-photo-item:hover:after {
     opacity: 1;
@@ -1177,7 +1170,7 @@ ul.team-info-social li {
     margin: 0 auto;
 }
 .plus:after {
-    content: ' ';
+    content: " ";
     width: 20px;
     height: 1px;
     background-color: #fff;
@@ -1203,14 +1196,14 @@ ul.team-info-social li {
     display: none;
     max-height: 0px;
     opacity: 0;
-    transition-duration: .5s;
+    transition-duration: 0.5s;
     transition-timing-function: linear;
     height: 100%;
 }
 .pozo-show-more-container.visible {
     visibility: visible;
     display: block;
-    animation: LHC .3s;
+    animation: LHC 0.3s;
     animation-fill-mode: both;
     min-height: 100%;
 }
@@ -1226,7 +1219,7 @@ ul.team-info-social li {
     }
 }
 .pozo-show-more-container.animated {
-    animation: HCC .5s;
+    animation: HCC 0.5s;
     animation-fill-mode: both;
 }
 @keyframes HCC {
@@ -1251,7 +1244,7 @@ ul.team-info-social li {
 }
 
 .fancybox-caption__body {
-        overflow: hidden;
+    overflow: hidden;
 }
 
 /* ======= Projects Style  ======= */
@@ -1276,8 +1269,8 @@ ul.team-info-social li {
     bottom: 0;
 }
 .projects .item img {
-    -webkit-transition: all .5s;
-    transition: all .5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
     -webkit-filter: brightness(100%);
 }
 .projects .item .con {
@@ -1286,14 +1279,14 @@ ul.team-info-social li {
     bottom: -50px;
     left: 0;
     width: 100%;
-    -webkit-transition: all .3s;
-    transition: all .3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
     text-align: center;
 }
 .projects .item .con .category {
     color: #9c5451;
     font-size: 20px;
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     font-weight: 400;
     text-transform: uppercase;
     margin-bottom: 0;
@@ -1338,7 +1331,6 @@ ul.team-info-social li {
     border-color: #9c5451;
 }
 
-
 /* =======  Blog  ======= */
 .blog .item {
     margin-bottom: 20px;
@@ -1352,8 +1344,8 @@ ul.team-info-social li {
     transform: scale(1.1, 1.1);
 }
 .blog .item .post-img .img {
-    -webkit-transition: all .4s;
-    transition: all .4s;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
 }
 .blog .item .cont {
     padding: 15px 15px 0 0;
@@ -1409,7 +1401,7 @@ ul.team-info-social li {
 .pozo-pagination-wrap li a:hover {
     opacity: 1;
     text-decoration: none;
-    box-shadow: 0px 16px 28px 0px rgba(0, 0, 0, 0.20);
+    box-shadow: 0px 16px 28px 0px rgba(0, 0, 0, 0.2);
     background-color: #9c5451;
     color: #fff;
 }
@@ -1429,7 +1421,6 @@ ul.team-info-social li {
 .next-post-img {
     width: 100%;
 }
-
 
 /* ======= Contact Style ======= */
 #contactMap {
@@ -1456,7 +1447,7 @@ ul.team-info-social li {
     color: #191919;
     background-image: none;
     border-bottom: 1px solid #ececec;
-    border-color: ease-in-out .15s, box-shadow ease-in-out .15s;
+    border-color: ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
 /* Form style */
 .pozo-form-block {
@@ -1503,7 +1494,6 @@ ul.team-info-social li {
     margin-left: 5px;
 }
 
-
 /* ======= Footer styles ======= */
 .pozo-footer-container {
     padding: 60px 0;
@@ -1534,7 +1524,7 @@ ul.team-info-social li {
 }
 .pozo-copyright span {
     font-size: 13px;
-    font-family: 'Mukta', sans-serif;
+    font-family: "Mukta", sans-serif;
     color: #9c5451;
 }
 .pozo-social-link:hover span {
@@ -1546,7 +1536,6 @@ ul.team-info-social li {
     border-top-style: solid;
     margin: 60px 0;
 }
-
 
 /* ======= Media Query ======= */
 @media (max-width: 390px) {
@@ -1588,12 +1577,12 @@ ul.team-info-social li {
         width: 64%;
     }
 }
-@media (min-width:768px) {
+@media (min-width: 768px) {
     .swiper-slide-block .swiper-slide-block-text {
         margin-top: 100px;
     }
 }
-@media (min-width:992px) {
+@media (min-width: 992px) {
     .pozo-section-slider .swiper-container-horizontal:after {
         content: "";
         display: block;
@@ -1610,7 +1599,7 @@ ul.team-info-social li {
         width: 100%;
     }
 }
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
     .pozo-section-slider {
         padding-bottom: 40px;
     }

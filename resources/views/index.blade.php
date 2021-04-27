@@ -4,6 +4,17 @@
         font-size: 1rem;
     }
 
+    .my-style {
+        display: flex;
+        flex-direction: column;
+    }
+
+    @media (min-width: 768px) {
+        .my-style {
+            flex-direction: row;
+        }
+    }
+
 </style>
 @section('content')
     <div class="container">
@@ -12,7 +23,7 @@
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="swiper-slide-block">
+                            <div class="swiper-slide-block my-style">
                                 <div class="swiper-slide-block-img animate-box" data-animate-effect="fadeInLeft"
                                     data-swiper-parallax-y="70%">
                                     <a href="#"> <img src="images/slider/2.jpg" alt=""> </a>

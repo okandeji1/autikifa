@@ -25,17 +25,18 @@
                         @include('partials.user.messages')
                         <div class="col-sm-6">
                             <div class="pozo-form-component">
-                                <input type="text" name="name" id="name" placeholder="Full Name" required="">
+                                <input type="text" name="name" id="name" placeholder="Full Name" required>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="pozo-form-component">
-                                <input type="email" name="email" id="email" placeholder="Email / Phone" required="">
+                                <input type="email" name="email" id="email" placeholder="Email / Phone" required>
                             </div>
                         </div>
                         <div class="col-sm-12">
                             <div class="pozo-form-component">
-                                <textarea name="message" id="message" cols="40" rows="4" placeholder="Message"></textarea>
+                                <textarea name="message" id="message" cols="40" rows="4" placeholder="Message"
+                                    required></textarea>
                             </div>
                         </div>
                         <div class="col-sm-12">
