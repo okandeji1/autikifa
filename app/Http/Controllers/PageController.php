@@ -45,8 +45,8 @@ class PageController extends Controller
         $mail->Port = 587;          // Port->2525
         $mail->From = $request->email;
         $mail->FromName = $request->name;
-        $mail->addAddress('okandeji2012@gmail.com', 'okandeji2012@gmail.com');
-        $mail->addReplyTo('okandeji2012@gmail.com', 'Autikifa Admin');
+        $mail->addAddress('autikifa870@gmail.com', 'autikifa870@gmail.com');
+        $mail->addReplyTo('autikifa870@gmail.com', 'Autikifa Admin');
         $mail->isHTML(true);
         // Mail content
         $mailContent = "<h1>Dear Autikifa Admin</h1>

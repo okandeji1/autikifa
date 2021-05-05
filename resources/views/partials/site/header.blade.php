@@ -28,15 +28,17 @@
                                             <a class="dropdown-item" href="#">Boomplay</a>
                                             <a class="dropdown-item" href="#">Sportify</a>
                                             <a class="dropdown-item" href="#">Youtube Music</a>
-                                            <a class="dropdown-item" href="#">Itunes</a>
+                                            {{-- <a class="dropdown-item" href="#">Itunes</a> --}}
                                         </div>
                                     </li>
                                     <li class="nav-item pl-md-0 ml-0 ml-md-4"> <a class="nav-link dropdown-toggle"
                                             data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
                                             aria-expanded="false">SOCIALS <span class="fa fa-angle-down"></span></a>
                                         <div class="dropdown-menu">
-                                            <a class="dropdown-item" href="#">Facebook</a>
-                                            <a class="dropdown-item" href="#">Twitter</a>
+                                            <a class="dropdown-item" href="https://www.facebook.com/augusta.asuquo.96/"
+                                                target="_blank">Facebook</a>
+                                            <a class="dropdown-item" href="https://twitter.com/AsuquoAugusta"
+                                                target="_blank">Twitter</a>
                                             <a class="dropdown-item" href="#">Instagram</a>
                                             <a class="dropdown-item" href="#">Youtube</a>
                                         </div>

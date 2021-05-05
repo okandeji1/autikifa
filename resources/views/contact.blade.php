@@ -11,7 +11,7 @@
                     <h4>Phone</h4>
                     <p>+234 816 055 5893</p>
                     <h4>Email</h4>
-                    <p>augustaasuquo@gmail.com</p>
+                    <p>autikifa870@gmail.com</p>
                     {{-- <h4>Address</h4>
                     <p>340 North First Street, San Jose, CA 95112, US.</p> --}}
                 </div>
