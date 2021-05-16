@@ -16,9 +16,7 @@ use App\Http\Controllers\PostController;
 |
 */
 // Pages
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', [PageController::class, 'index']);
 Route::get('/contact-us', [PageController::class,'contact']);
 
 Route::get('/auth-login', function () {

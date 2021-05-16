@@ -26,7 +26,7 @@
                             <div class="swiper-slide-block my-style">
                                 <div class="swiper-slide-block-img animate-box" data-animate-effect="fadeInLeft"
                                     data-swiper-parallax-y="70%">
-                                    <a href="#"> <img src="images/slider/2.jpg" alt=""> </a>
+                                    <a href="#"> <img src="images/auti.jpeg" style="width: 100%" alt=""> </a>
                                 </div>
                                 <div class="swiper-slide-block-text animate-box" data-animate-effect="fadeInRight">
                                     <h2 data-swiper-parallax-x="-60%" class="next-main-title">Auti Kifa <span
@@ -62,29 +62,18 @@
                 <div class="section-head text-center col-md-12 animate-box" data-animate-effect="fadeInUp">
                     <h4>Recent <span>Shots</span></h4>
                 </div>
-                <div class="col-6 col-lg-4 animate-box" data-animate-effect="fadeInUp">
-                    <figure>
-                        <a class="d-block mb-4" data-fancybox="images" href="images/gallery/01.jpg"
-                            data-caption="Quisque in felis"> <img class="img-fluid" src="images/gallery/01.jpg" alt="" />
-                        </a>
-                    </figure>
-                    <figure>
-                        <a class="d-block mb-4" data-fancybox="images" href="images/gallery/02.jpg"
-                            data-caption="Pellentesque habitant"> <img class="img-fluid" src="images/gallery/02.jpg"
-                                alt="" /> </a>
-                    </figure>
-                    <figure>
-                        <a class="d-block mb-4" data-fancybox="images" href="images/gallery/11.jpg"
-                            data-caption="Curabitur convallis"> <img class="img-fluid" src="images/gallery/11.jpg" alt="" />
-                        </a>
-                    </figure>
-                    <figure>
-                        <a class="d-block mb-4" data-fancybox="images" href="images/gallery/03.jpg"
-                            data-caption="Quisque in dolor"> <img class="img-fluid" src="images/gallery/03.jpg" alt="" />
-                        </a>
-                    </figure>
-                </div>
-                <div class="col-6 col-lg-4 animate-box" data-animate-effect="fadeInUp">
+                @foreach ($posts as $post)
+                    <div class="col-6 col-lg-4 animate-box" data-animate-effect="fadeInUp">
+                        <figure>
+                            <a class="d-block mb-4" data-fancybox="images" href="/storage/{{ $post->image }}"
+                                data-caption="Quisque in felis"> <img class="img-fluid" src="/storage/{{ $post->image }}"
+                                    alt="" />
+                            </a>
+                        </figure>
+                    </div>
+                @endforeach
+
+                {{-- <div class="col-6 col-lg-4 animate-box" data-animate-effect="fadeInUp">
                     <figure>
                         <a class="d-block mb-4" data-fancybox="images" href="images/gallery/18.jpg"
                             data-caption="Aliquam non luctus"> <img class="img-fluid" src="images/gallery/18.jpg" alt="" />
@@ -120,13 +109,13 @@
                             data-caption="Orci varius natoque"> <img class="img-fluid" src="images/gallery/19.jpg" alt="" />
                         </a>
                     </figure>
-                </div>
+                </div> --}}
             </div>
             <!-- show more -->
             <div class="row mb-4 align-items-stretch mt-60">
                 <div class="col-12">
                     <!-- show more -->
-                    <div class="pozo-show-more-container">
+                    {{-- <div class="pozo-show-more-container">
                         <div class="row align-items-stretch pozo-photos" id="pozo-section-photos">
                             <div class="col-6 col-lg-4 animate-box" data-animate-effect="fadeInUp">
                                 <figure>
@@ -160,10 +149,10 @@
                                 </figure>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                     <!-- add more -->
                     <div class="pozo-more-wrapper txt-center animate-box" data-animate-effect="fadeInUp">
-                        <a href="index.html#" class="pozo-more-trigger flex"> <span class="plus flex-center">&nbsp;</span>
+                        <a href="#" class="pozo-more-trigger flex"> <span class="plus flex-center">&nbsp;</span>
                         </a>
                     </div>
                 </div>

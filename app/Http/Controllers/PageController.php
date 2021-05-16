@@ -14,11 +14,11 @@ class PageController extends Controller
     {
         try {
             //code...
-            $products = Product::orderBy('created_at', 'desc')->paginate(20);
             $posts = Post::orderBy('created_at', 'desc')->paginate(20);
-            return view('index', compact(['products', $products, 'posts', $posts]));
+            return view('index')->with('posts', $posts);
         } catch (\Throwable $th) {
             //throw $th;
+            return back()->with('error', 'Internal server error');
         }
     }
 
